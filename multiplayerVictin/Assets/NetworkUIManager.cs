@@ -2,11 +2,9 @@ using UnityEngine;
 using System.Net; //Este trae los DNS para consultar direccion ip de la computadora
 using System.Net.Sockets;
 using Unity.Netcode;
-using Unity.Netcode.Transports.UTP;
-using Unity.UI; //UDP User Datagram Protocol
+using Unity.Netcode.Transports.UTP; //UDP User Datagram Protocol
 using TMPro;
 using UnityEngine.UI;
-using System; //
 public class NetworkUIManager : MonoBehaviour
 {
     [Header("UIConnection")]
